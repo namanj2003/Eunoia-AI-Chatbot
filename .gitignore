@@ -1,0 +1,13 @@
+#Ignore environment valiables
+.env
+
+#ignore Deployment files
+.deployment
+
+# --- IGNORE ---
+# Ignore Python cache files
+__pycache__/
+*.pyc
+# Ignore virtual environment folders
+venv/
+env/
