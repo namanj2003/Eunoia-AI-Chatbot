@@ -199,7 +199,7 @@ async def chat(request: ChatRequest):
         print(f"Chat endpoint error: {str(e)}")
         raise HTTPException(status_code=500, detail=f"Error: {str(e)}")
 
-# For local development
-if __name__ == "__main__":
-    import uvicorn
-    uvicorn.run(app, host="0.0.0.0", port=7860)
+# # For local development
+# if __name__ == "__main__":
+#     import uvicorn
+#     uvicorn.run(app, host="0.0.0.0", port=7860)
